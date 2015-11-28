@@ -21,16 +21,18 @@ class FileModifiedHandler(FileSystemEventHandler):
 
 if __name__ == '__main__':
     from sys import argv, exit
-
+    MESSG = 'Press CTRL+SHIFT+\ to exit...'
     if not len(argv) <= 2:
         print("Usage: reload <filename> <optional_args>")
         exit(1)
-    print('Press CTRL+SHIFT+\ to exit...')
+    print(MESSG)
         
-    def callback():
+    def callback(tell=True):
         bashCommand = "xelatex {filename}".format(filename=argv[1])
         import subprocess
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output = process.communicate()[0]
+        if tell:
+            print output, '\n', MESSG
 
     FileModifiedHandler('.', argv[1], callback)
