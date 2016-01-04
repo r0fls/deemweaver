@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.11.1)  12 DEC 2015 12:45
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.11.30)  4 JAN 2016 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,7 +744,64 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \f@ncyO@olf=\skip59
 \f@ncyO@orf=\skip60
 )
-(./deemweaver.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen164
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count150
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count151
+\leftroot@=\count152
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count153
+\DOTSCASE@=\count154
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count155
+\c@MaxMatrixCols=\count156
+\dotsspace@=\muskip17
+\c@parentequation=\count157
+\dspbrk@lvl=\count158
+\tag@help=\toks21
+\row@=\count159
+\column@=\count160
+\maxfields@=\count161
+\andhelp@=\toks22
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks23
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (./deemweaver.aux)
 \openout1 = `deemweaver.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -806,7 +863,7 @@ LaTeX Font Info:    ... okay on input line 54.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box45
+\AtBeginShipoutBox=\box47
 Package hyperref Info: Link coloring OFF on input line 54.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -814,7 +871,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count150
+\c@section@level=\count162
 )
 LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
@@ -842,7 +899,6 @@ LaTeX Font Info:    Redeclaring math accent \check on input line 54.
 LaTeX Font Info:    Redeclaring math accent \hat on input line 54.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 54.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 54.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 54.
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 54.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 54.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 54.
@@ -912,7 +968,7 @@ isodate: babel.sty, (n)german.sty have not been loaded
 . 
 . <->"[fonts/raleway/Raleway-ExtraLight]/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
-\g_fontspec_family_Lato-Hai_int=\count151
+\g_fontspec_family_Lato-Hai_int=\count163
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -935,7 +991,7 @@ isodate: babel.sty, (n)german.sty have not been loaded
 . * 'normal' with NFSS spec.:
 . <->"[fonts/lato/Lato-Lig]/ICU:script=latn;language=DFLT;"
 .................................................
-\g_fontspec_family_Raleway-Medium_int=\count152
+\g_fontspec_family_Raleway-Medium_int=\count164
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -982,7 +1038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--88
 . 
 . This font family consists of the following shapes:
 .................................................
-\g_fontspec_family_Lato-Bol_int=\count153
+\g_fontspec_family_Lato-Bol_int=\count165
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1014,10 +1070,6 @@ LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 . 
 . This font family consists of the following shapes:
 .................................................
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 99.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 99.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1254,27 +1306,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 . 
 . This font family consists of the following shapes:
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
  (./deemweaver.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 244.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 21302 strings out of 493918
- 393625 string characters out of 6150563
- 451830 words of memory out of 5000000
- 24400 multiletter control sequences out of 15000+600000
- 4312 words of font info for 54 fonts, out of 8000000 for 9000
+ 21881 strings out of 493918
+ 400195 string characters out of 6150562
+ 463190 words of memory out of 5000000
+ 24962 multiletter control sequences out of 15000+600000
+ 4766 words of font info for 56 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,10n,90p,10533b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,90p,10533b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on deemweaver.pdf (1 page).
