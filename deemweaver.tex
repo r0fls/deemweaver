@@ -47,10 +47,10 @@
 
 \documentclass[]{deemweaver}
 \usepackage{fancyhdr}
-\usepackage{amsmath} 
+\usepackage{amsmath}
 \pagestyle{fancy}
 \fancyhf{}
- 
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,7 +104,8 @@ PHP \textbullet{}R
 {}Gitlab \textbullet{} Travis\textbullet{}Jenkins
 \sectionsep
 \subsection{Monitoring \& Alerting}
-Prometheus\textbullet{}Grafana\textbullet{}Pagerduty
+Prometheus\textbullet{}Grafana
+Pagerduty\textbullet{}VictorOps
 \sectionsep
 \subsection{Miscellaneous}
 Linux\textbullet{}Kubernetes\textbullet{}Docker
@@ -148,26 +149,31 @@ immersive work study program. \\First graduating class.
 \begin{minipage}[t]{0.66\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     ABOUT
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{About}
-I am a systems and backend engineer, and a golang and python afficianado. I enjoy working with kubernetes and containers.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Ticketmaster}
-\descript{| Systems Engineer III}
-\location{May 2017 - Present | Remote}
+\runsubsection{Granular}
+\descript{| Senior Software Engineer}
+\location{December 2018 - Present | Remote}
 \begin{tightemize}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\item Architected and engineered system for attributing kubernetes workload costs to product teams, using prometheus, golang and the spotinst API.
+\item Installed and configured the Open Policy Agent to enforce labelling requirements on kubernetes resources.
+\item Released ebs-tagging solution, which adds labels from kubernetes PersistentVolumes to their corresponding EBS volumes in AWS, using golang.
+\item Installed and configured Jaeger and Istio for HA usage, and wrote corresponding internal documentation.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ticketmaster}
+\descript{| Systems Engineer III}
+\location{May 2017 - December 2018 | Remote}
+\begin{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\item Engineered system for attributing kubernetes workload costs to product teams, using prometheus, golang and the spotinst API.
 \item Designed and created end-to-end tests to verify kubernetes cluster functionality and report on SLAs, using golang, bash, and prometheus.
 \item Deployed the upstream nginx-ingress-controller as a cost-saving alternative to our internally developed alb-ingress-controller, using helm and gitlab ci/cd.
 \end{tightemize}
 \sectionsep
-
 
 \runsubsection{Platform.sh}
 \descript{| Infrastructure Engineer}
@@ -176,7 +182,6 @@ I am a systems and backend engineer, and a golang and python afficianado. I enjo
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \item Automated deployment of high-availability enterprise clusters, using python fabric and mako templates.
 \item Created command line tool for managing fastly CDN services.
-\item Added support for Postgresql high availability clusters, using puppet and bidirectional replication.
 \end{tightemize}
 \sectionsep
 
@@ -196,7 +201,6 @@ I am a systems and backend engineer, and a golang and python afficianado. I enjo
 \descript{| CTO}
 \location{Aug 2014 – Sep 2015 | Portland, OR}
 \begin{tightemize}
-\item Designed and hosted website (\href{http://yoursupply.co}{\bf yoursupply.co}) using Apache, Linux and Bootstrap CSS.
 \item Wrote and deployed python scripts to scrape listing data from Amazon.
 \end{tightemize}
 \sectionsep
